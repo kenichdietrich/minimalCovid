@@ -27,7 +27,13 @@ ui <- fluidPage(
                radioButtons("selectType",
                             HTML("<b>CASES</b>"),
                             choices=c("Confirmed","Deaths","Recovered"),
-                            selected="Confirmed")
+                            selected="Confirmed"),
+               br(),
+               actionButton("github_button", 
+                            label="GitHub", 
+                            icon=icon("github"),
+                            onclick="window.open('https://github.com/kenichdietrich/minimalCovid',
+                            '_blank')")
         ),
         column(10,
                wellPanel(
