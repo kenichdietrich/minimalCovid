@@ -1,4 +1,6 @@
-# minimalCovid19 Shiny dashboard
+<img src="www/minimalCovid.png" width="200"/>
+
+# MinimalCovid19 Shiny dashboard
 
 This repository contains source files of a data dashboard developed in Shiny R. It is a minimal implementation to visualize data from Covid-19 worldwide.
 
