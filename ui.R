@@ -15,10 +15,8 @@ ui <- fluidPage(
         .nav-pills {
             display: flex !important;
             justify-content: center !important;
-            width: 100%;
+            width: 0%;
         }
-        
-        .navbar { background-color: gray;}
         ")),
     fluidRow(
         column(2,
